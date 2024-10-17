@@ -1,0 +1,153 @@
+
+
+
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+header p{
+    font-size: 1.2em;
+}
+section{
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#featured-projects{
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+#featured-projects h2{
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+#featured-projects .project{
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+#featured-projects .project img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#featured-projects .project:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    #featured-projects .project{
+        width: 80%;
+        margin: 20px 0;
+    }
+    
+}
+@media (min-width: 769px) {
+    #featured-projects .project{
+        width: calc(33.333% - 30px);
+    }
+    
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+footer a{
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+#behind-the-scenes{
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial' sans-serif;
+}
+#behind-the-scenes h2{
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+#behind-the-scenes .videos{
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    size: 20px;
+}
+#behind-the-scenes .videos p{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+}
+#testimonials{
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Arial' sans-serif;
+
+}
+#testimonials h2{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+#testimonials p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+#testimonials blockquote{
+    font-style: italic;
+    color: #444;
+    border-left: 5px solid #4caf50;
+    padding-left: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+#testimonials cite{
+    display: block;
+    font-size: 16px;
+    color: #999;
+    margin-top: 10px;
+    font-weight: bold;
+}

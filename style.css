@@ -1,0 +1,527 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.main{  
+    background-color:rgb(88, 4, 130);
+    display: flex;
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.505);
+    position: fixed;
+    background-image: url(BANNERS/medium-shot-business-woman-talking-phone_23-2149457720.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+
+.logo{
+     height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo img{
+   
+    width: 15%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+}
+
+.nav-links{
+  
+    width: 40%;
+    margin-left: 50%;
+}
+
+.nav-links ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-links li{
+    margin-left: 20px;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+color: white;
+transition: 0.1s;
+}
+
+
+
+
+.nav-links a:hover{
+    color: rgb(255, 225, 0);
+}
+
+#hero {
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+background-image: url(BANNERS/HERO2.jpg);
+  padding-top: 15%;
+  padding-bottom: 10%;
+  background-size:cover;
+}
+
+
+#hero h1{
+    font-size: 35px;
+    margin-left: 10%;
+    color:  rgb(39, 86, 130);
+   
+}
+
+#hero a{
+text-decoration: none;
+color: white;
+   
+}
+
+#hero h4{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+
+
+.gen-button{
+   
+    padding: 10px 30px;
+    background-color: rgb(39, 86, 130);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gen-button a{
+    text-decoration: none;
+
+background-color: rgb(39, 86, 130);
+
+
+}
+
+#hero button{
+    margin-left: 10%;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: rgb(39, 86, 130);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#hero button:hover{
+    background-color: rgb(154, 136, 0) ;
+    transform: scale(1.1);
+}
+
+#intro-designs {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   flex-wrap: wrap;
+   margin-top: 8%;
+  
+  
+}
+
+.intro-designs-1{
+width: 23%;
+height: 300px;
+background-image: url(images/haicut.jpg);
+background-size: contain; 
+}
+
+
+.intro-designs-2{
+    background-image: url(images/birthday.jpg);
+    width: 23%;
+height: 300px;
+background-color: aqua;
+background-size: contain;
+ animation: birthday 15s ease;
+ animation-iteration-count: infinite;
+}
+
+.intro-designs-3{
+    background-image: url(images/barber.jpg);
+    width: 23%;
+height: 300px;
+background-color: aqua;
+background-size: contain;
+animation: photoshuffle 15s ease;
+animation-iteration-count: infinite;
+transition: 1s;
+ 
+}
+
+.intro-designs-4{
+    background-image: url(images/Bootcamp.jpg);
+    width: 23%;
+height: 300px;
+background-color: aqua;
+background-size: contain;
+ 
+}
+
+.int{
+    box-shadow: 10px    10px 5px rgba(0, 0, 0, 0.749);
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.int:hover{
+    transform: scale(1.2);
+}
+
+/*HAIR ADVERT ANIMATION*/
+
+@keyframes photoshuffle{
+    0%{
+             background-image: url(images/Sharwama\ 3.jpg);
+    }
+
+    20%{
+        background-image: url(images/Sharwama\ 2.jpg);
+    }
+
+    40%{
+        background-image: url(images/Salon\ 3.jpg);
+    }
+
+    60%{
+        background-image: url(images/Salon.jpg);
+    }
+
+    80%{
+        background-image: url(images/Invitation.jpg);
+    }
+
+    100%{
+        background-image: url(images/Bootcamp.jpg);
+    }
+
+}
+
+
+/*BIRTHDAY ANIMATION*/
+@keyframes birthday{
+    0%{
+             background-image: url(images/Birthday\ 4.jpg);
+    }
+
+    20%{
+        background-image: url(images/Beauty.jpg);
+    }
+    25%{
+        background-image: url(images/20230318_121218.jpg);
+    }
+
+    40%{
+        background-image: url(images/New\ month\ 1.jpg);
+    }
+
+    60%{
+        background-image: url(images/Marriage.jpg);
+    }
+
+    80%{
+        background-image: url(images/Motivational.jpg);
+    }
+
+    100%{
+        background-image: url(images/Nails\ Flyer.jpg);
+    }
+
+}
+
+/*OUR Services*/
+
+#Our-Services{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(BANNERS/medium-shot-business-woman-talking-phone_23-2149457720.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+    
+}
+
+#Our-Services .Services-cont{
+    width: 60%;
+ 
+    margin: 100px 20%;
+    height: 300px;
+    padding-top: 8%;
+    border-radius: 10px;
+}
+
+#Our-Services .Services-cont h1{
+    font-size: 35px;
+    color: white;
+}
+
+#Our-Services .Services-cont p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#VISIT-CATALOG{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+
+}
+
+
+
+.VISIT-CATALOG-cont{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 12% 0;
+    margin: 100px 5%;
+    height: 300px;
+    background-image: url(BANNERS/HERO3.jpg);
+    background-color: rgba(227, 221, 221, 0.575);
+
+    
+    border-radius: 10px;
+    transition: 2s ease-in;
+    background-size: cover;
+}
+.VISIT-CATALOG-cont:hover button{
+  transform: scale(1.2);
+  
+}
+
+.VISIT-CATALOG-cont:hover {
+    background-image: url(BANNERS/portrait-happy-smiling-female-customer-support-computer-operator-isolated_70216-7863.jpg);
+    background-size: cover;
+}
+
+#about-us{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-us-content{
+    background-color:  rgb(39, 86, 130);
+    height: 350px;
+    width: 35%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7% 4%;
+    transition: 1S ease;
+}
+
+
+.about-us-content h1{
+  font-size: 40px;
+  color: white;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.about-us-content p{
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+   
+  }
+
+
+
+
+
+.about-us-illustration{
+    background-image: url(BANNERS/HERO3.jpg);
+    height: 350px;
+    width: 60%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1S ease;
+}
+
+.about-us-illustration:hover{
+   
+    transform: scale(1.2);
+    box-shadow: 20px 10px 20px rgba(39, 38, 38, 0.945);
+}
+
+.about-us-content:hover{
+    cursor: pointer;
+     box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.872);
+     transform: scale(1.1);
+}
+
+#Our-Banner{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(BANNERS/HERO8.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 10px;
+ 
+    
+}
+
+#Our-Banner .banner{
+    width: 60%;
+    border-radius: 20px;
+    margin: 100px 20%;
+    height: 300px;
+    padding-top: 8%;
+    border-radius: 10px;
+}
+
+#Our-Banner .banner h1{
+    font-size: 35px;
+    color: white;
+}
+
+#Our-Banner .banner p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+#contact-us{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-us-content{
+    background-color: transparent;
+    height: 350px;
+    width: 35%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7% 4%;
+    transition: 1S ease;
+    border: 2px solid  rgb(39, 86, 130);
+}
+
+
+.contact-us-content h1{
+  font-size: 40px;
+  color: rgb(39, 86, 130);
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.contact-us-content p{
+    font-size: 16px;
+    color: rgb(3, 94, 168);
+    line-height: 25px;
+   
+  }
+
+
+
+
+
+  .contact-us-illustration{
+    background-image: url(BANNERS/HERO9.jpg);
+    height: 350px;
+    width: 60%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.1S ease;
+}
+
+.contact-us-illustration:hover{
+   box-shadow: 10px 5px 10px rgba(39, 38, 38, 0.674);
+}
+
+
+.real-contacts{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center ;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.real-contacts img{
+    width: 35px;
+    color: brown;
+    }
+
+    .real-contacts h3{
+       margin-top: 7px;
+       margin-left: 10px;
+       font-size: 20px;
+        }
+
+        .real-contacts h3 a{
+            text-decoration: none;
+            color:  rgb(3, 94, 168);
+        }    
+        
+        .real-contacts h3{
+          
+            color:  rgb(3, 94, 168);
+        }  
+
+
